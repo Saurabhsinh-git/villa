@@ -40,8 +40,10 @@
 		}
       }
 	});
-$(".owl-next").attr("aria-label", "Next", "aria-role", "button");
-$(".owl-prev").attr("aria-label", "Previous");
+$(".owl-next").attr("aria-label", "Next").add("role", "button");
+$(".owl-prev").attr("aria-label", "Previous").add("role", "button");
+$(".owl-next").attr("role", "button");
+$(".owl-prev").attr("role", "button");
 $(".owl-dot").attr("aria-label", "Indexing buttons");
 	var width = $(window).width();
 		$(window).resize(function() {
