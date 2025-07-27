@@ -32,7 +32,8 @@
       margin:30,
       responsive:{
         992:{
-            items:1
+            items:1,
+			 nav: false
         },
 		1200:{
 			items:1
